@@ -1,0 +1,568 @@
+body{
+    font-size: 12px;
+    font-family: "微软雅黑","宋体";
+}
+a{
+    text-decoration: none;
+}
+// 头部
+#top{
+    height: 120px;
+    position: fixed;
+    top:0;
+    left: 0;
+}
+#top1{
+    width: 1280px;
+    width:100%;
+    margin: 0 auto;
+}
+.toptop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 1280px;
+    width: 100%;
+    height: 75px;
+    background: #090909;
+    z-index: 100;
+}
+.logotop{
+    float: left;
+    display: inline;
+}
+.logotop1{
+    margin: 19px 0 0 50px;
+    width: 297px;
+    height: 39px;
+    position: relative;
+}
+.logoa{
+    display: block;
+    width: 297px;
+    height: 39px;
+    z-index: 1;
+    background: url(..\index\images\ia_1200000022.png) no-repeat;
+    background-position: -2px -147px;
+}
+.logoa a:link, .logoa a:visited {
+    cursor: pointer;
+}
+.topr{
+    float: right;
+    display: inline;
+
+    margin: 22px 25px 0 0;
+    height: 38px;
+    line-height: 30px;
+    color: #a1a1a1;
+    position: relative;
+    font-size: 14px;
+
+    a{
+    color: #a1a1a1;
+    float: left;
+    padding-right: 20px;
+    display: block;
+    position: relative;
+    }
+
+    .mtxt1,.mtxt2,.mtxt3,.mtxt4{
+    display: block;
+    float: left;
+    padding-right: 6px;
+    font-family: "微软雅黑";
+    }
+    .carti{
+    background: url(../index/images/ia_1200000022.png) no-repeat;
+    margin: 3px 4px 0 0;
+    display: block;
+    width: 28px;
+    height: 25px;
+    background-position: -2px -13px;
+    float: left;
+    }
+    .cartnum{
+    background: url(../index/images/ia_1200000022.png) no-repeat;
+    margin: 7px 0 0 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background-position: -2px -287px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    float: left;
+    padding-right: 6px;
+    }
+    .lqzxt{
+    background: url(../index/images/ia_1200000035.png) no-repeat;
+    margin: 5px 4px 0 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-position: -36px -385px;
+    float: left;
+    }
+    .lolwxt{
+    background: url(../index/images/ia_1200000022.png) no-repeat;
+    margin: 5px 4px 0 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-position: -2px -42px;
+    float: left;
+    }
+    .lolwxtr{
+    background: url(../index/images/ia_1200000022.png) no-repeat;
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-position: -32px 0;
+    float: left;
+    }
+    .wx_code{
+        display: none;
+        
+    }
+    .lolwx:hover .wx_code{
+    width: 90px;
+    height: 110px;
+    position: absolute;
+    top: 53px;
+    left: 0;
+    z-index: 999;
+    border-top: 1px solid #f94915;
+    display: block;
+    background: #000;
+    opacity: 0.65;
+    z-index: 2;
+
+    .wx_codebg{
+        z-index: 2;
+    }
+        
+    .imgwx{
+        margin: 0 auto;
+        z-index: 2;
+    }
+    .wx_txt{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    line-height: 14px;
+    text-align: center;
+    font-size: 14px;
+    color: #e7e7e7;
+    z-index: 2;
+    }
+    }
+}
+// nav 导航栏
+.nav{
+    position: fixed;
+    top: 75px;
+    left: 0;
+    z-index: 100;
+    margin: 0 auto;
+    min-width: 1240px;
+    width: 100%;
+    height: 45px;
+    background: #202020;
+
+    ul{
+    float: left;
+    display: inline;
+    margin: 0 20px;
+    line-height: 45px;
+    height: 45px;
+    color: #fff;
+    font-size: 14px;
+
+    li{
+        float: left;
+    padding: 0;
+    position: relative;
+    width: 122px;
+    text-align: center;
+
+    a{
+    display: block;
+    width: 100%;
+    height: 45px;
+    padding: 0;
+    color: #fff;
+    font-size: 18px;
+    }
+    }
+
+    li:nth-child(2) .i2{
+        background: url(//js01.daoju.qq.com/zb/lolriotmall/pc/images/i-hot.png) no-repeat;
+        position: absolute;
+        top: 16px;
+        right: -6px;
+        z-index: 2;
+        width: 28px;
+        height: 14px;
+        display: block;
+    }
+    }
+
+    // 右边搜索栏
+    .sousou{
+    float: right;
+    display: inline;
+    margin: 8px 34px 0 0;
+    height: 30px;
+    position: relative;
+
+    .soso{
+    width: 250px;
+    height: 38px;
+    overflow: hidden;
+    position: relative;
+
+    #souinp{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    padding: 2px 6px 2px 6px;
+    border: 1px solid #777;
+    border-right: 0px;
+    font-size: 14px;
+    width: 190px;
+    height: 24px;
+    line-height: 32px;
+    color: #fff;
+    background: none;
+    vertical-align: middle;
+    }
+    .sosobtn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45px;
+    height: 30px;
+    cursor: pointer;
+    background: #fa4f17;
+    padding: 0px;
+    border: 0px;
+
+    .meach{
+    background: url(../index/images/ia_1200000022.png) no-repeat;
+    margin: 5px 0 0 12px;
+    display: block;
+    width: 21px;
+    height: 21px;
+    background-position: -2px -358px;
+    }
+    }
+    }
+    }
+}
+
+//底部
+.bottom{
+    min-width: 1280px;
+    background: url(..\index\images\bottom_bj.jpg) left top repeat-x;
+    height: 402px;
+
+    .bomshop{
+    width: 1190px;
+    height: 402px;
+    margin: 0px auto;
+
+        .bom1{
+        padding-top: 28px;
+        background: #fff;
+        height: 70px;
+        width: 1190px;
+        margin: 0px auto;
+
+            .bom1ul{
+            padding-left: 110px;
+            width: 940px;
+            margin: 0px auto;
+            zoom: 1;
+            // clear: both;
+            // overflow: hidden;
+
+                li{
+                    float: left;
+
+                    span{
+                        display: block;
+                        width: 42px;
+                        height: 52px;
+                        float: left; 
+                    }
+
+                    a{
+                        display: block;
+                        line-height: 52px;
+                        height: 52px;
+                        float: left;
+                        color: #222;
+                        font-size: 14px;
+                        cursor: default;
+                    }
+
+                    
+                }
+
+
+                li:nth-child(1) {
+                    span{
+                    background: url(../index/images/ia_1200000044.png) no-repeat -10px -234px; 
+
+                }
+                    a{
+                        width: 240px;
+                    }
+            }
+                li:nth-child(2) {
+                    span{
+                    background: url(../index/images/ia_1200000044.png) no-repeat -73px -234px; 
+                    
+                }
+                a{
+                    width: 228px;
+                }
+            }
+                li:nth-child(3) {
+                    span{
+                    background: url(../index/images/ia_1200000044.png) no-repeat -179px -234px; 
+
+                }
+                a{
+                    width: 160px;
+                }
+            }
+            }
+        }
+        .bom2{
+            width: 1190px;
+            margin: 0px auto;
+            height: auto;
+            list-style-image: none;
+            list-style-position: outside;
+            list-style-type: none;
+
+            .help {
+                padding-left: 22px;
+                margin-top: 20px;
+                color: #666;
+                zoom: 1;
+                overflow: auto;
+
+                .he_w1 {
+                    width: 266px;
+                }
+                .he_w2 {
+                    width: 266px;
+                }
+                .he_w3 {
+                    width: 254px;
+                }
+                .he_w4{
+                    font-size: 12px;
+                    font-family: "微软雅黑","宋体";
+
+                    span{
+                        text-indent: 10px;
+                        font-size: 12px;
+                        color: #666;
+                        display: block;
+                        line-height: 28px;
+                    }
+                }
+
+                li{
+                    height: 166px;
+                    float: left;
+                    padding-top: 4px;
+                    padding-left: 16px;
+
+                    h3{
+                        display: block;
+                        line-height: 30px;
+                        font-size: 16px;
+                        color: #d6d6d6;
+                        font-weight: normal;
+
+                        a{
+                            line-height: 30px;
+                            font-size: 16px;
+                            color: #222;
+                            text-indent: 0px;
+                            background: none;
+                        }
+                    }
+
+                    a{
+                        text-indent: 10px;
+                        font-size: 12px;
+                        color: #666;
+                        display: block;
+                        line-height: 28px;
+                    }
+                }
+
+                
+            }
+        }
+        .bom3{
+            width: 1190px;
+            margin: 0px auto;
+            height: auto;
+            border-top: 1px solid #e9e9e9;
+            border-bottom: 1px solid #e9e9e9;
+            margin-top: 25px;
+            text-align: center;
+
+            a{
+                color: #666;
+                padding-right: 20px;
+                line-height: 40px;
+                cursor: pointer;
+                font-size: 12px;
+                font-family: "微软雅黑","宋体";
+            }
+
+        }
+
+        .bom4{
+            width: 855px;
+            height: auto;
+            margin: 20px auto 20px;
+            line-height: 20px;
+            zoom: 1;
+            overflow: auto;
+            font-size: 12px;
+            font-family: "微软雅黑","宋体";
+
+            .bqlogo {
+                background: url(..\index\images\ia_1200000044.png) no-repeat -10px -290px;
+                width: 246px;
+                height: 46px;
+                border-right: #e9e9e9 solid 1px;
+                float: left;
+                display: inline;
+            }
+
+            .copyright {
+                width: 470px;
+                height: 40px;
+                margin: 4px 0 0 16px;
+                color: #666;
+                float: left;
+                display: inline;
+
+                a{
+                    color: #666;
+                }
+            }
+
+            .business-link {
+                float: left;
+                display: block;
+                width: 117px;
+                height: 50px;
+                background: url(..\index\images\ia_1200000045.png) no-repeat;
+            }
+        }
+    }
+}
+// 悬浮客服
+.xfkf{
+    width: 70px;
+    height: 96px;
+    position: fixed;
+    top:50%;
+    right: 5px;
+    z-index: 100;
+    margin-top: -48px;
+
+    a{
+        padding-top: 15px;
+        width: 68px;
+        height: 79px;
+        background: #fff;
+        border: 1px solid #dcdcdc;
+        display: block;
+        border-radius: 9px;
+        overflow: hidden;
+        text-decoration: none;
+        cursor: pointer;
+        color: #000;
+
+        i{
+            margin: 0 auto;
+            display: block;
+            width: 41px;
+            height: 39px;
+            background: url(..\index\images\ia_1200000046.png) no-repeat;
+            background-position: -2px -2px;
+        }
+
+        span{
+            display: block;
+            padding-top: 8px;
+            text-align: center;
+            color: #626262;
+            font-size: 12px;
+            font-family: "微软雅黑","宋体";
+        }
+    }
+}
+.xfkf:hover a{
+    background: #000;
+    border: 1px solid #fff;
+
+    
+    i{
+        background-position: -47px -2px;
+    }
+
+    span{
+        color: #fff;
+
+    }
+}
+
+
+
+/*滚动条的宽度*/
+::-webkit-scrollbar {
+    width:9px;
+    height:9px;
+}
+
+/*外层轨道。可以用display:none让其不显示，也可以添加背景图片，颜色改变显示效果*/
+::-webkit-scrollbar-track {
+    width: 6px;
+    background-color:#0d1b20;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius:2em;
+}
+/*滚动条的设置*/
+::-webkit-scrollbar-thumb {
+    background-color:#606d71;
+    background-clip:padding-box;
+    min-height:28px;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius:2em;
+}
+/*滚动条移上去的背景*/
+::-webkit-scrollbar-thumb:hover {
+    background-color:#fff;
+}
+

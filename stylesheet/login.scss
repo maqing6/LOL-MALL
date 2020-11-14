@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+#dljm{
+    width: 622px;
+    height: 418px;
+    position: fixed;
+    display: none;
+    background:#ECF0F1;
+    top:50%;
+    left: 50%;
+    margin-top: -209px;
+    margin-left: -311px;
+    z-index: 1001;
+
+    #close{
+        display: block;
+        position: absolute;
+        top: 1px;
+        right: 1px;
+        width: 47px;
+        height: 28px;
+        background: url(https://vm.gtimg.cn/tencentvideo/vstyle/web/common/style/img/login/sprite_login.png?d=0210&max_age=31104000) 0 0 no-repeat;
+        z-index: 10;
+    }
+
+    .logtab{
+        position: relative;
+        height: 50px;
+        margin-bottom: -1px;
+        border-bottom: 1px solid #e6e6e6;
+        background: #f1f1f1;
+        font-size: 0;
+        z-index: 3;
+
+        .tabul{
+            list-style: none;
+
+            .tabli1{
+                display: inline-block;
+                zoom: 1;
+                width: 50%;
+                text-align: center;
+
+                .taba{
+                    background: #31a4f6;
+                    height: 51px;
+                    margin-bottom: -1px;
+                    color: #fff;
+                    display: block;
+                    width: 100%;
+                    line-height: 50px;
+                    font-size: 16px;
+
+                    .icoqq{
+                        display: inline-block;
+                        zoom: 1;
+                        background: url(https://vm.gtimg.cn/tencentvideo/vstyle/web/common/style/img/login/sprite_login.png?d=0210&max_age=31104000) 9999px 9999px no-repeat;
+                        vertical-align: top;
+                        position: relative;
+                        top: 12px;
+                        margin-right: 8px;
+                        width: 20px;
+                        height: 23px;
+                        background-position: -200px -90px;
+                    }
+                }
+                
+            }
+
+            .tabli2{
+                display: inline-block;
+                zoom: 1;
+                width: 50%;
+                text-align: center;
+
+                .taba{
+                    display: block;
+                    width: 100%;
+                    height: 50px;
+                    line-height: 50px;
+                    font-size: 16px;
+                    color: #b1b1b1;
+
+                    .icowx{
+                        display: inline-block;
+                        zoom: 1;
+                        background: url(https://vm.gtimg.cn/tencentvideo/vstyle/web/common/style/img/login/sprite_login.png?d=0210&max_age=31104000) 9999px 9999px no-repeat;
+                        vertical-align: top;
+                        position: relative;
+                        top: 12px;
+                        margin-right: 8px;
+                        width: 24px;
+                        height: 23px;
+                        background-position: -220px -90px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .tsbox{
+        position: relative;
+        z-index: 3;
+        height: 22px;
+        padding: 12px 10px;
+
+        .ts{
+            font-size: 14px;
+            line-height: 22px;
+            color: #a2a2a2;
+            text-align: center;
+            zoom: 1;
+        }
+    }
+
+    .dlnr{
+        position: relative;
+        height: 100%;
+        top: 50%;
+        margin-top: -150px;
+
+        .dltj{
+            position: relative;
+            margin: 0 auto 36px;
+            z-index: 11;
+            font-size: 16px;
+            color: #666;
+            text-align: center;
+
+            .title{
+                font-size: 20px;
+                color: #333;
+                margin-bottom: 16px;
+            }
+
+            .tttle2{
+                color: #3481cf;
+            }
+        }
+
+
+        .zhmm{
+            width: 272px;
+            margin: 0 auto;
+    
+            form{
+    
+                .zh{
+                    height: 55px;
+                    position: relative;
+                    z-index: 10;
+    
+                    .input_tips{
+                        position: absolute;
+                        top: 13px;
+                        left: 13px;
+                        font-size: 14px;
+                        line-height: 16px;
+                        color: #aaa;
+                        cursor: text;
+                    }
+    
+                    .srzh{
+                        width: 272px;
+                        height: 42px;
+                        background: url(//imgcache.qq.com/ptlogin/v4/style/40/images/icon_3_tiny.png) -1px -1px no-repeat;
+    
+                        input{
+                            width: 258px;
+                            position: relative;
+                            top: 2px;
+                            left: 2px;
+                            height: 18px;
+                            padding: 10px 0 10px 10px;
+                            line-height: 18px;
+                            border: none;
+                            background: 0 0;
+                            color: #333;
+                            font-family: Verdana,Tahoma,Arial;
+                            font-size: 16px;
+                        }
+                    }
+                }
+
+                .mm{
+                    height: 55px;
+                    position: relative;
+                    z-index: 3;
+
+                    .input_tips{
+                        position: absolute;
+                        top: 13px;
+                        left: 13px;
+                        font-size: 14px;
+                        line-height: 16px;
+                        color: #aaa;
+                        cursor: text;
+                    }
+
+                    .srmm{
+                        width: 272px;
+                        height: 42px;
+                        background: url(//imgcache.qq.com/ptlogin/v4/style/40/images/icon_3_tiny.png) -1px -1px no-repeat;
+
+                        input{
+                            width: 258px;
+                            position: relative;
+                            top: 2px;
+                            left: 2px;
+                            height: 18px;
+                            padding: 10px 0 10px 10px;
+                            line-height: 18px;
+                            border: none;
+                            background: 0 0;
+                            color: #333;
+                            font-family: Verdana,Tahoma,Arial;
+                            font-size: 16px;
+                        }
+                    }
+                }
+
+                .dl{
+                    background-color: #86ce2f;
+                    height: 40px;
+                    position: relative;
+
+                    .dla{
+                        position: absolute;
+                        left: 0;
+                        outline: 0;
+                        width: 100%;
+
+                        input{
+                            color: #fff;
+                            height: 40px;
+                            line-height: 35px;
+                            font-size: 17px;
+                            width: 100%;
+                            border: none;
+                            font-weight: 400;
+                            font-family: "Microsoft Yahei","微软雅黑",SimHei,"黑体","Hiragino Sans GB",STHeiTi,sans-serif;
+                            background: 0 0;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    
+}

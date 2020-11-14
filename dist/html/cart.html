@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车页面</title>
+    <link rel="icon" href="//js01.daoju.qq.com/zb/lolriotmall/pc/images/favicon.ico" sizes="32x32">
+    <link rel="stylesheet" href="../css/cart.min.css">
+    <link rel="stylesheet" type="text/css" href="..\css\resetstyle.css">
+    <script src = '../js/require.js' async = 'true' defer data-main = "../js/cart"></script>
+
+</head>
+<body>
+    <!-- 头部 -->
+    <div id="top top1">
+        <!-- 头顶 -->
+        <div class="toptop">
+            <!-- logo -->
+            <div class="logotop logotop1">
+                <a href="#" class="logoa" title="logo"></a>
+            </div>
+            <!-- 右边信息栏 -->
+            <div class="topr">
+                <a href="javascript:;" id="unlogin" class="login">
+                    <span class="mtxt1">你好, 请登录</span>
+                </a>
+                <a href="" class="cart">
+                    <i class="carti"></i>
+                    <span class="mtxt2">购物车</span>
+                    <span class="cartnum"></span>
+                </a>
+                <a href="" class="lqzx">
+                    <i class="lqzxt"></i>
+                    <span class="mtxt3">领取中心</span>
+                </a>
+                <a href="" class="lolwx">
+                    <i class="lolwxt"></i>
+                    <span class="mtxt4">微信商城</span>
+                    <i class="lolwxtr"></i>
+                    <div class="wx_code">
+                        <div class="wx_codebg"></div>
+                        <div class="wx_codeimg">
+                            <img class="imgwx" src="..\index\images\ia_1200000000.png" width="83" height="82" alt="微信二维码">
+                        </div>
+                        <p class="wx_txt">扫码手机购买</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- nav导航栏 -->
+        
+
+    <!-- 中部主体 -->
+    <div class="mian">
+        <!-- 购物车主区域 -->
+        <div class="buycar">
+            <!-- 左侧 -->
+            <div class="buyleft">
+                <div class="car_list">
+                    <!-- 购物车为空时 -->
+                    <!-- <div class="buyxgno">
+                        您的购物车中还没有商品，
+                        <a href="">去逛逛吧</a>
+                    </div> -->
+
+                    <!-- 有商品时 -->
+                    <input type="hidden" id="" value="0">
+                    <div class="buyshop">
+                        <!-- 标头 -->
+                        <ul class="buytop1">
+                            <li class="li_inp">
+                                <div class="buy_qxz">全选</div>
+                            </li>
+                            <li class="li_sp">商品数量</li>
+                            <li class="li_dj">单价(元)</li>
+                            <li class="li_sl">数量</li>
+                            <li class="li_jg">小计</li>
+                            <li class="li_zz">操作</li>
+                        </ul>
+
+                        <!-- 商品 -->
+                        <!-- <ul class="spbg">
+                            <li class="li_inp">
+                                <div class="dian"></div>
+                            </li>
+                            <li class="li_sp">
+                                <div class="buysp">
+                                    <a href="" class="bsp1">
+                                        <img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/202009/20200924205134_67038.jpg" alt="">
+                                    </a>
+                                    <div class="buyspwen">
+                                        <a href="">
+                                            <span>2020全球总决赛纪念邮政礼盒</span>
+                                        </a>
+                                        <div class="jjgg">
+                                            <span class="jgspan">
+                                                <span class="jj1">
+                                                    规格
+                                                </span>
+                                                <span class="jj2">
+                                                    纪念邮政礼盒
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="li_dj">
+                                <span>
+                                    ￥
+                                    <span class="djspan">199.00 元</span>
+                                </span>
+                            </li>
+                            <li class="li_sl">
+                                <div class="buysl">
+                                    <a href="" >
+                                        <img src="../index/images/jianhao.jpg" alt="">
+                                    </a>
+                                    <input type="text" name="cartNum" old_value="1" class="cartNum" value="1">
+                                    <a href="">
+                                        <img src="../index/images/jiahao.jpg" alt="">
+                                    </a>
+                                    <input type="hidden" id="goodsNo_18331" value="18331">
+                                    <input type="hidden" id="canSaleNum_18331" value="952">
+                                </div>
+                            </li>
+                            <li class="li_jg">
+                                <span>￥</span>
+                                <span>199.00</span>
+                            </li>
+                            <li class="li_zz">
+                                <a href="">删除</a>
+                                &nbsp;&nbsp;
+                                <a href="">收藏</a>
+                            </li>
+                        </ul> -->
+
+
+                        <ul class="buybom1">
+                            <li class="li_inp">
+                                <div class="buy_qxz">全选</div>
+                            </li>
+                            <li class="li_sp">
+                                <a id="continue_buy">继续购物</a>
+                            </li>
+                            <li class="li_dj">&nbsp;</li>
+                            <li class="li_sl">&nbsp;</li>
+                            <li class="li_jg">&nbsp;</li>
+                            <li class="li_zz">
+                                <a href="javascript:;" class="qkgwc">清空购物车</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <!-- 精品推荐 -->
+                <div class="ware">
+                    <div class="mod_hot">
+                        <div class="jptj">精品推荐</div>
+                        <div class="ullb">
+                            <ul>
+                                <!-- <li>
+                                    <a href="" class="imga"><img src="..\index\images\ia_200000007.jpg" alt=""></a>
+                                    <div class="wen">
+                                        <a href="" class="ms">灵能特工 工卡套装</a>
+                                        <span class="jgjg">¥89</span>
+                                        <a href="" class="jrgwc">加入购物车</a>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a href="" class="imga"><img src="..\index\images\ia_200000008.jpg" alt=""></a>
+                                    <div class="wen">
+                                        <a href="" class="ms">K/DA All Out 灰色麂皮</a>
+                                        <span class="jgjg">¥150</span>
+                                        <a href="" class="jrgwc">加入购物车</a>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a href="" class="imga"><img src="..\index\images\ia_200000009.jpg" alt=""></a>
+                                    <div class="wen">
+                                        <a href="" class="ms">玉剑传说泰隆&艾瑞莉</a>
+                                        <span class="jgjg">¥399</span>
+                                        <a href="" class="jrgwc">加入购物车</a>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a href="" class="imga"><img src="..\index\images\ia_200000010.jpg" alt=""></a>
+                                    <div class="wen">
+                                        <a href="" class="ms">2020 全球总决赛 LPL出</a>
+                                        <span class="jgjg">¥1199</span>
+                                        <a href="" class="jrgwc">加入购物车</a>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a href="" class="imga"><img src="..\index\images\ia_200000011.jpg" alt=""></a>
+                                    <div class="wen">
+                                        <a href="" class="ms">灵能特工 鸭舌帽</a>
+                                        <span class="jgjg">¥150</span>
+                                        <a href="" class="jrgwc">加入购物车</a>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a href="" class="imga"><img src="..\index\images\ia_200000012.jpg" alt=""></a>
+                                    <div class="wen">
+                                        <a href="" class="ms">K/DA 阿卡丽帽衫</a>
+                                        <span class="jgjg">¥350</span>
+                                        <a href="" class="jrgwc">加入购物车</a>
+                                    </div>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 右侧 -->
+            <div class="buyright">
+                <div class="rbox">
+                    <h3>我的购物车</h3>
+                    <div class="buybai">
+                        <div class="jgjs">
+                            <span class="cfb6">满299包邮</span>
+                            <span id="isFreeSpan" style="display: none;">-您还未满足包邮条件</span>
+                        </div>
+                        <div class="qjs">
+                            商品数量：
+                            <span class="numcount"></span>
+                            <br>
+                            商品金额：
+                            <span class="jejeje">
+                                ￥
+                                <font class="yuan" id="tota">0.00</font>
+                            </span>
+                            <a href="" class="jsbtn">去结算</a>
+                        </div>
+                        <div class="cn">
+                            <div class="cnbox">
+                                <div class="cn1">承诺</div>
+                                <div class="cn2">
+                                    7天无理由退换货
+                                    <br>
+                                    100%官方正品
+                                    <br>
+                                    全场每单满299元包邮
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- 底部 -->
+    <div class="bottom">
+        <div class="bomshop">
+            <div id="bomshop">
+                <!-- <div class="bom1">
+                    <ul class="bom1ul">
+                        <li><span></span><a href="">7天无理由退换货</a></li>
+                        <li><span></span><a href="">100%官方正品</a></li>
+                        <li><span></span><a href="">全场每单满299元包邮</a></li>
+                    </ul>
+                </div> -->
+                <!-- <div class="bom2">
+                    <ul class="help">
+                        <li class="he_w1">
+                            <h3><a href="https://lolriotmall.qq.com/help/helpAfterSale.shtml#help1" target="_blank">购物指南</a></h3>
+                            <a href="https://lolriotmall.qq.com/help/helpAfterSale.shtml#help1" target="_blank">帐号注册与登录</a>
+                            <a href="https://lolriotmall.qq.com/help/helpAfterSale.shtml#help2" target="_blank">购买流程介绍</a>
+                            <a href="https://lolriotmall.qq.com/help/helpAfterSale.shtml#help3" target="_blank">支付方式</a>
+                            <a href="https://lolriotmall.qq.com/help/helpAfterSale.shtml#help4" target="_blank">常见问题</a>
+                        </li>
+                        <li class="he_w2">
+                            <h3><a href="https://lolriotmall.qq.com/help/helpShopping.shtml#help1" target="_blank">配送服务</a></h3>
+                            <a href="https://lolriotmall.qq.com/help/helpShopping.shtml#help1" target="_blank">全场满299元免运费</a>
+                            <a href="https://lolriotmall.qq.com/help/helpShopping.shtml#help2" target="_blank">配送范围及运费</a>
+                            <a href="https://lolriotmall.qq.com/help/helpShopping.shtml#help3" target="_blank">配送进度查询</a>
+                        </li>
+                        <li class="he_w3">
+                            <h3><a href="https://lolriotmall.qq.com/help/helpExpress.shtml#help1" target="_blank">售后服务</a></h3>
+                            <a href="https://lolriotmall.qq.com/help/helpExpress.shtml#help1" target="_blank">7天无理由退换货</a>
+                            <a href="https://lolriotmall.qq.com/help/helpExpress.shtml#help5" target="_blank">退换货流程</a>
+                            <a href="https://lolriotmall.qq.com/help/helpExpress.shtml#help3" target="_blank">商品送错的处理方案</a>
+                            <a href="https://lolriotmall.qq.com/help/helpExpress.shtml#help4" target="_blank">售后服务及投诉</a>
+    
+                        </li>
+                        <li class="he_w4">
+                            <h3><a href="https://lolriotmall.qq.com/help/helpIndex.shtml" target="_blank">服务中心</a></h3>
+                            <div class="fuwu_qq">
+                            <a class="qq_qian kf_comm">客服咨询</a>
+                            </div>
+                            <span>客服热线：0755-25727866</span>
+                            <a href="mailto:service@lolriotmall.qq.com">售后：service@lolriotmall.qq.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bom3">
+                    <a href="https://lolriotmall.qq.com/help/helpabouts.shtml#help5">关于商城</a>
+                    <a href="https://lolriotmall.qq.com/help/helpabouts.shtml#help4">服务条款</a>
+                    <a href="https://lolriotmall.qq.com/help/helpabouts.shtml#help3">合作伙伴</a>
+                    <a href="https://lolriotmall.qq.com/help/helpabouts.shtml#help2">法律声明</a>
+                    <a href="https://lolriotmall.qq.com/help/helpabouts.shtml#help1">经营者证照信息</a>
+                </div> -->
+                <!-- <div class="bom4">
+                    <div class="bqlogo fl"></div>
+                <div class="copyright fl">
+                    深圳市合泰文化发展有限公司提供客服支持 |  客服邮箱：
+                    <a href="mailto:service@lolmall.qq.com">service@lolriotmall.qq.com</a>
+                    <br>
+                    Copyright (C) 1998 – 2018 Tencent. All Rights Reserved.腾讯公司 版权所有
+                </div>
+                <a class="business-link fl" target="_blank" href="https://szcert.ebs.org.cn/1efd63b4-7863-490a-839f-53968220109f"></a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- 悬浮客服 -->
+    <div class="xfkf">
+        <a href="">
+            <i></i>
+            <span>联系客服</span>
+        </a>
+    </div>
+
+    <!-- 弹出登录 -->
+    <div id="dljm">
+        <a href="" id="close"></a>
+        <div class="logtab">
+            <ul class="tabul">
+                <li class="tabli1">
+                    <a href="" class="taba">
+                        <i class="icoqq"></i>
+                        <span>QQ账号登录</span>
+                    </a>
+                </li>
+                <li class="tabli2">
+                    <a href="" class="taba">
+                        <i class="icowx"></i>
+                        <span>微信账号登录</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="tsbox">
+            <div class="ts">微信和QQ是两个独立账号，账号信息不互通</div>
+        </div>
+
+        <div class="dlnr">
+            <div class="dltj">
+                <div class="title" id="title_2">帐号密码登录</div>
+                <div class="title2">
+                    推荐使用<a href="">快速安全登录</a>，防止盗号。
+                </div>
+
+            </div>
+
+            <div class="zhmm">
+                <form action="">
+                    <div class="zh">
+                        <label class="input_tips">支持QQ号/邮箱/手机号登录</label>
+                        <div class="srzh">
+                            <input type="text" class="inputstyle" value="" >
+                        </div>
+                    </div>
+                    <div class="mm">
+                        <label class="input_tips">密码</label>
+                        <div class="srmm">
+                            <input type="password" class="password"value="">
+                        </div>
+                    </div>
+                    <div class="dl">
+                        <a href="javascript:;" class="dla">
+                            <input type="button" tabindex="6" value="登 录" class="btn" id="login_button">
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+</body>
+</html>

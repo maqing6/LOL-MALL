@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" href="../css/login.min.css">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    
+</head>
+<body style="height: 3000px;">
+    <div class="denglu">111</div>
+    <div id="dljm">
+        <a href="" id="close"></a>
+        <div class="logtab">
+            <ul class="tabul">
+                <li class="tabli1">
+                    <a href="" class="taba">
+                        <i class="icoqq"></i>
+                        <span>QQ账号登录</span>
+                    </a>
+                </li>
+                <li class="tabli2">
+                    <a href="" class="taba">
+                        <i class="icowx"></i>
+                        <span>微信账号登录</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="tsbox">
+            <div class="ts">微信和QQ是两个独立账号，账号信息不互通</div>
+        </div>
+
+        <div class="dlnr">
+            <div class="dltj">
+                <div class="title" id="title_2">帐号密码登录</div>
+                <div class="title2">
+                    推荐使用<a href="">快速安全登录</a>，防止盗号。
+                </div>
+
+            </div>
+
+            <div class="zhmm">
+                <form action="">
+                    <div class="zh">
+                        <label class="input_tips">支持QQ号/邮箱/手机号登录</label>
+                        <div class="srzh">
+                            <input type="text" class="inputstyle" value="" >
+                        </div>
+                    </div>
+                    <div class="mm">
+                        <label class="input_tips">密码</label>
+                        <div class="srmm">
+                            <input type="password" class="password"value="">
+                        </div>
+                    </div>
+                    <div class="dl">
+                        <a href="javascript:;" class="dla">
+                            <input type="button" tabindex="6" value="登 录" class="btn" id="login_button">
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        
+    </div>
+</body>
+</html>
+    <script>
+        $(".denglu").click(function(){
+            $("#dljm").css("display","block");
+        })
+        $(".dla").click(function(){
+            $("#dljm").css("display","none");
+            $(".denglu").html("huany");
+        })
+    </script>

@@ -1,0 +1,731 @@
+@charset "UTF-8";
+body {
+  font-size: 12px;
+  font-family: "微软雅黑","宋体"; }
+
+a {
+  text-decoration: none; }
+
+#top {
+  height: 120px;
+  position: fixed;
+  top: 0;
+  left: 0; }
+
+#top1 {
+  width: 1280px;
+  width: 100%;
+  margin: 0 auto; }
+
+.toptop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 1280px;
+  width: 100%;
+  height: 75px;
+  background: #090909;
+  z-index: 100; }
+
+.logotop {
+  float: left;
+  display: inline; }
+
+.logotop1 {
+  margin: 19px 0 0 50px;
+  width: 297px;
+  height: 39px;
+  position: relative; }
+
+.logoa {
+  display: block;
+  width: 297px;
+  height: 39px;
+  z-index: 1;
+  background: url(..\index\images\ia_1200000022.png) no-repeat;
+  background-position: -2px -147px; }
+
+.logoa a:link, .logoa a:visited {
+  cursor: pointer; }
+
+.topr {
+  float: right;
+  display: inline;
+  margin: 22px 25px 0 0;
+  height: 38px;
+  line-height: 30px;
+  color: #a1a1a1;
+  position: relative;
+  font-size: 14px; }
+  .topr a {
+    color: #a1a1a1;
+    float: left;
+    padding-right: 20px;
+    display: block;
+    position: relative; }
+  .topr .mtxt1, .topr .mtxt2, .topr .mtxt3, .topr .mtxt4 {
+    display: block;
+    float: left;
+    padding-right: 6px;
+    font-family: "微软雅黑"; }
+  .topr .carti {
+    background: url(../index/images/ia_1200000022.png) no-repeat;
+    margin: 3px 4px 0 0;
+    display: block;
+    width: 28px;
+    height: 25px;
+    background-position: -2px -13px;
+    float: left; }
+  .topr .cartnum {
+    background: url(../index/images/ia_1200000022.png) no-repeat;
+    margin: 7px 0 0 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background-position: -2px -287px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    float: left;
+    padding-right: 6px; }
+  .topr .lqzxt {
+    background: url(../index/images/ia_1200000035.png) no-repeat;
+    margin: 5px 4px 0 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-position: -36px -385px;
+    float: left; }
+  .topr .lolwxt {
+    background: url(../index/images/ia_1200000022.png) no-repeat;
+    margin: 5px 4px 0 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-position: -2px -42px;
+    float: left; }
+  .topr .lolwxtr {
+    background: url(../index/images/ia_1200000022.png) no-repeat;
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-position: -32px 0;
+    float: left; }
+  .topr .wx_code {
+    display: none; }
+  .topr .lolwx:hover .wx_code {
+    width: 90px;
+    height: 110px;
+    position: absolute;
+    top: 53px;
+    left: 0;
+    z-index: 999;
+    border-top: 1px solid #f94915;
+    display: block;
+    background: #000;
+    opacity: 0.65;
+    z-index: 2; }
+    .topr .lolwx:hover .wx_code .wx_codebg {
+      z-index: 2; }
+    .topr .lolwx:hover .wx_code .imgwx {
+      margin: 0 auto;
+      z-index: 2; }
+    .topr .lolwx:hover .wx_code .wx_txt {
+      position: absolute;
+      bottom: 5px;
+      left: 0;
+      width: 100%;
+      line-height: 14px;
+      text-align: center;
+      font-size: 14px;
+      color: #e7e7e7;
+      z-index: 2; }
+
+.nav {
+  position: fixed;
+  top: 75px;
+  left: 0;
+  z-index: 100;
+  margin: 0 auto;
+  min-width: 1240px;
+  width: 100%;
+  height: 45px;
+  background: #202020; }
+  .nav ul {
+    float: left;
+    display: inline;
+    margin: 0 20px;
+    line-height: 45px;
+    height: 45px;
+    color: #fff;
+    font-size: 14px; }
+    .nav ul li {
+      float: left;
+      padding: 0;
+      position: relative;
+      width: 122px;
+      text-align: center; }
+      .nav ul li a {
+        display: block;
+        width: 100%;
+        height: 45px;
+        padding: 0;
+        color: #fff;
+        font-size: 18px; }
+    .nav ul li:nth-child(2) .i2 {
+      background: url(//js01.daoju.qq.com/zb/lolriotmall/pc/images/i-hot.png) no-repeat;
+      position: absolute;
+      top: 16px;
+      right: -6px;
+      z-index: 2;
+      width: 28px;
+      height: 14px;
+      display: block; }
+  .nav .sousou {
+    float: right;
+    display: inline;
+    margin: 8px 34px 0 0;
+    height: 30px;
+    position: relative; }
+    .nav .sousou .soso {
+      width: 250px;
+      height: 38px;
+      overflow: hidden;
+      position: relative; }
+      .nav .sousou .soso #souinp {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 10;
+        padding: 2px 6px 2px 6px;
+        border: 1px solid #777;
+        border-right: 0px;
+        font-size: 14px;
+        width: 190px;
+        height: 24px;
+        line-height: 32px;
+        color: #fff;
+        background: none;
+        vertical-align: middle; }
+      .nav .sousou .soso .sosobtn {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 45px;
+        height: 30px;
+        cursor: pointer;
+        background: #fa4f17;
+        padding: 0px;
+        border: 0px; }
+        .nav .sousou .soso .sosobtn .meach {
+          background: url(../index/images/ia_1200000022.png) no-repeat;
+          margin: 5px 0 0 12px;
+          display: block;
+          width: 21px;
+          height: 21px;
+          background-position: -2px -358px; }
+
+.content1 {
+  height: auto;
+  padding-top: 120px;
+  min-width: 1280px;
+  width: 100%;
+  margin: 0 auto; }
+  .content1 .catalog {
+    min-width: 1240px;
+    width: 100%;
+    height: 62px;
+    line-height: 62px;
+    text-align: left; }
+    .content1 .catalog .loga1 {
+      text-indent: 50px;
+      color: #4b4b4b;
+      font-size: 16px;
+      display: block;
+      width: auto;
+      float: left; }
+    .content1 .catalog i {
+      margin: 27px 15px 0 22px;
+      display: block;
+      width: 7px;
+      height: 10px;
+      background: url(..\index\images\ia_1200000022.png) no-repeat;
+      background-position: -111px 0;
+      float: left; }
+    .content1 .catalog .loga2 {
+      color: #4b4b4b;
+      font-size: 16px;
+      display: block;
+      width: auto; }
+  .content1 .list_topt .list_banner {
+    min-width: 1280px;
+    width: 100%;
+    min-height: 129px;
+    height: auto;
+    overflow: hidden; }
+    .content1 .list_topt .list_banner a img {
+      margin: 0 auto;
+      min-width: 1280px;
+      width: 100%;
+      min-height: 129px;
+      height: auto;
+      display: block; }
+  .content1 .list_shop {
+    position: absolute;
+    margin: 36px auto 90px;
+    min-width: 1280px;
+    width: 100%;
+    min-height: 700px;
+    height: auto; }
+    .content1 .list_shop .sidebar {
+      width: 195px;
+      height: 700px;
+      float: left;
+      display: inline; }
+      .content1 .list_shop .sidebar .dl1, .content1 .list_shop .sidebar .dl2, .content1 .list_shop .sidebar .dl3 {
+        margin: 7px 0 40px 51px;
+        height: auto;
+        color: #202020; }
+        .content1 .list_shop .sidebar .dl1 dt, .content1 .list_shop .sidebar .dl2 dt, .content1 .list_shop .sidebar .dl3 dt {
+          margin-bottom: 15px;
+          width: 145px;
+          height: 24px;
+          line-height: 22px;
+          text-indent: 12px;
+          font-size: 22px;
+          position: relative;
+          font-weight: bold; }
+          .content1 .list_shop .sidebar .dl1 dt i, .content1 .list_shop .sidebar .dl2 dt i, .content1 .list_shop .sidebar .dl3 dt i {
+            background: url(..\index\images\ia_1200000022.png) no-repeat;
+            background-position: -2px -125px;
+            position: absolute;
+            top: 2px;
+            left: 0;
+            z-index: 1;
+            display: block;
+            width: 3px;
+            height: 18px; }
+          .content1 .list_shop .sidebar .dl1 dt span, .content1 .list_shop .sidebar .dl2 dt span, .content1 .list_shop .sidebar .dl3 dt span {
+            cursor: pointer; }
+      .content1 .list_shop .sidebar dd {
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        text-indent: 12px;
+        font-size: 14px; }
+        .content1 .list_shop .sidebar dd a {
+          width: 100%;
+          height: 30px;
+          line-height: 30px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          color: #000; }
+    .content1 .list_shop .shopcont {
+      margin-right: 17px;
+      width: 82%;
+      height: auto;
+      float: right;
+      display: inline; }
+      .content1 .list_shop .shopcont .shoptop {
+        width: 100%;
+        height: 38px; }
+        .content1 .list_shop .shopcont .shoptop .shoptop1 {
+          width: 130px;
+          height: auto;
+          position: relative;
+          z-index: 12;
+          float: left;
+          display: inline; }
+          .content1 .list_shop .shopcont .shoptop .shoptop1 .sbox {
+            width: 128px;
+            height: 36px;
+            line-height: 36px;
+            border: 1px solid #bcbfc1;
+            font-size: 15px;
+            color: #919799;
+            text-align: center;
+            text-indent: -20px;
+            cursor: pointer; }
+            .content1 .list_shop .shopcont .shoptop .shoptop1 .sbox i {
+              position: absolute;
+              top: 16px;
+              right: 26px;
+              display: block;
+              width: 14px;
+              height: 7px;
+              background: url(..\index\images\ia_1200000022.png) no-repeat;
+              background-position: -2px -2px; }
+          .content1 .list_shop .shopcont .shoptop .shoptop1 .ullist {
+            position: absolute;
+            top: 37px;
+            left: 0px;
+            width: 128px;
+            text-align: center;
+            border: 1px solid #bcbfc1;
+            border-bottom: none;
+            font-size: 15px;
+            z-index: 100;
+            background: #fff;
+            display: none; }
+            .content1 .list_shop .shopcont .shoptop .shoptop1 .ullist li {
+              width: 128px;
+              height: 36px;
+              line-height: 36px;
+              text-align: center;
+              border-bottom: 1px solid #bcbfc1;
+              color: #919799;
+              cursor: pointer; }
+        .content1 .list_shop .shopcont .shoptop .shoptop2 {
+          margin-left: 22px;
+          width: auto;
+          height: 38px;
+          line-height: 38px;
+          font-size: 14px;
+          color: #919799;
+          float: left;
+          display: inline; }
+          .content1 .list_shop .shopcont .shoptop .shoptop2 i {
+            margin-top: -2px;
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            vertical-align: middle;
+            background: url(..\index\images\ia_500000052.png) no-repeat;
+            background-position: -10px -10px;
+            cursor: pointer; }
+        .content1 .list_shop .shopcont .shoptop .shoptop3 {
+          float: right;
+          display: inline; }
+          .content1 .list_shop .shopcont .shoptop .shoptop3 .page {
+            margin: 0 16px 0 0;
+            width: auto;
+            height: 38px;
+            float: right;
+            line-height: 36px;
+            font-size: 14px; }
+            .content1 .list_shop .shopcont .shoptop .shoptop3 .page span {
+              float: left;
+              color: #919799; }
+              .content1 .list_shop .shopcont .shoptop .shoptop3 .page span a {
+                display: block;
+                color: #919799;
+                height: 36px;
+                float: left;
+                border: 1px solid #aeb2b3;
+                text-align: center;
+                margin-left: 5px;
+                display: inline;
+                background: #fff;
+                padding: 0px 8px; }
+      .content1 .list_shop .shopcont .goodlist {
+        margin-top: 32px;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        zoom: 1; }
+        .content1 .list_shop .shopcont .goodlist .goodlist_ul {
+          list-style-image: none;
+          list-style-position: outside;
+          list-style-type: none; }
+          .content1 .list_shop .shopcont .goodlist .goodlist_ul li {
+            float: left;
+            margin-bottom: 56px;
+            width: 33.3%;
+            height: auto;
+            position: relative;
+            overflow: hidden; }
+            .content1 .list_shop .shopcont .goodlist .goodlist_ul li i {
+              position: absolute;
+              top: 14px;
+              right: 35px;
+              z-index: 20;
+              display: block;
+              width: 19px;
+              height: 17px;
+              background: url(..\index\images\ia_1200000022.png) no-repeat;
+              background-position: -2px -104px;
+              cursor: pointer; }
+            .content1 .list_shop .shopcont .goodlist .goodlist_ul li a {
+              padding-right: 16px;
+              height: 100%;
+              display: block;
+              position: relative;
+              color: #303030;
+              z-index: 1;
+              overflow: hidden;
+              cursor: pointer; }
+              .content1 .list_shop .shopcont .goodlist .goodlist_ul li a .ico-mark {
+                position: absolute;
+                top: 0;
+                left: 20px;
+                z-index: 20;
+                width: 20%;
+                overflow: hidden; }
+                .content1 .list_shop .shopcont .goodlist .goodlist_ul li a .ico-mark img {
+                  display: block;
+                  width: 100%;
+                  height: auto; }
+              .content1 .list_shop .shopcont .goodlist .goodlist_ul li a .xiajia {
+                position: absolute;
+                top: 60%;
+                left: 60%;
+                width: 25%;
+                z-index: 20;
+                overflow: hidden; }
+                .content1 .list_shop .shopcont .goodlist .goodlist_ul li a .xiajia img {
+                  display: block;
+                  width: 100%;
+                  height: auto; }
+              .content1 .list_shop .shopcont .goodlist .goodlist_ul li a .gl-img {
+                display: block;
+                width: 100%;
+                height: auto;
+                position: relative; }
+                .content1 .list_shop .shopcont .goodlist .goodlist_ul li a .gl-img img {
+                  display: block;
+                  width: 100%;
+                  height: auto; }
+              .content1 .list_shop .shopcont .goodlist .goodlist_ul li a .gl-hoverimg {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: auto;
+                display: none; }
+                .content1 .list_shop .shopcont .goodlist .goodlist_ul li a .gl-hoverimg img {
+                  display: block;
+                  width: 100%;
+                  height: auto; }
+            .content1 .list_shop .shopcont .goodlist .goodlist_ul li .gl-name {
+              margin: 10px auto 0;
+              width: 100%;
+              height: 32px;
+              line-height: 32px;
+              text-align: center;
+              font-size: 16px; }
+            .content1 .list_shop .shopcont .goodlist .goodlist_ul li .gl-pri {
+              width: 100%;
+              text-align: center;
+              height: 30px;
+              line-height: 30px;
+              font-size: 30px; }
+
+.bottom {
+  position: relative;
+  bottom: -1700px;
+  min-width: 1280px;
+  background: url(..\index\images\bottom_bj.jpg) left top repeat-x;
+  height: 402px; }
+  .bottom .bomshop {
+    width: 1190px;
+    height: 402px;
+    margin: 0px auto; }
+    .bottom .bomshop .bom1 {
+      padding-top: 28px;
+      background: #fff;
+      height: 70px;
+      width: 1190px;
+      margin: 0px auto; }
+      .bottom .bomshop .bom1 .bom1ul {
+        padding-left: 110px;
+        width: 940px;
+        margin: 0px auto;
+        zoom: 1; }
+        .bottom .bomshop .bom1 .bom1ul li {
+          float: left; }
+          .bottom .bomshop .bom1 .bom1ul li span {
+            display: block;
+            width: 42px;
+            height: 52px;
+            float: left; }
+          .bottom .bomshop .bom1 .bom1ul li a {
+            display: block;
+            line-height: 52px;
+            height: 52px;
+            float: left;
+            color: #222;
+            font-size: 14px;
+            cursor: default; }
+        .bottom .bomshop .bom1 .bom1ul li:nth-child(1) span {
+          background: url(../index/images/ia_1200000044.png) no-repeat -10px -234px; }
+        .bottom .bomshop .bom1 .bom1ul li:nth-child(1) a {
+          width: 240px; }
+        .bottom .bomshop .bom1 .bom1ul li:nth-child(2) span {
+          background: url(../index/images/ia_1200000044.png) no-repeat -73px -234px; }
+        .bottom .bomshop .bom1 .bom1ul li:nth-child(2) a {
+          width: 228px; }
+        .bottom .bomshop .bom1 .bom1ul li:nth-child(3) span {
+          background: url(../index/images/ia_1200000044.png) no-repeat -179px -234px; }
+        .bottom .bomshop .bom1 .bom1ul li:nth-child(3) a {
+          width: 160px; }
+    .bottom .bomshop .bom2 {
+      width: 1190px;
+      margin: 0px auto;
+      height: auto;
+      list-style-image: none;
+      list-style-position: outside;
+      list-style-type: none; }
+      .bottom .bomshop .bom2 .help {
+        padding-left: 22px;
+        margin-top: 20px;
+        color: #666;
+        zoom: 1;
+        overflow: auto; }
+        .bottom .bomshop .bom2 .help .he_w1 {
+          width: 266px; }
+        .bottom .bomshop .bom2 .help .he_w2 {
+          width: 266px; }
+        .bottom .bomshop .bom2 .help .he_w3 {
+          width: 254px; }
+        .bottom .bomshop .bom2 .help .he_w4 {
+          font-size: 12px;
+          font-family: "微软雅黑","宋体"; }
+          .bottom .bomshop .bom2 .help .he_w4 span {
+            text-indent: 10px;
+            font-size: 12px;
+            color: #666;
+            display: block;
+            line-height: 28px; }
+        .bottom .bomshop .bom2 .help li {
+          height: 166px;
+          float: left;
+          padding-top: 4px;
+          padding-left: 16px; }
+          .bottom .bomshop .bom2 .help li h3 {
+            display: block;
+            line-height: 30px;
+            font-size: 16px;
+            color: #d6d6d6;
+            font-weight: normal; }
+            .bottom .bomshop .bom2 .help li h3 a {
+              line-height: 30px;
+              font-size: 16px;
+              color: #222;
+              text-indent: 0px;
+              background: none; }
+          .bottom .bomshop .bom2 .help li a {
+            text-indent: 10px;
+            font-size: 12px;
+            color: #666;
+            display: block;
+            line-height: 28px; }
+    .bottom .bomshop .bom3 {
+      width: 1190px;
+      margin: 0px auto;
+      height: auto;
+      border-top: 1px solid #e9e9e9;
+      border-bottom: 1px solid #e9e9e9;
+      margin-top: 25px;
+      text-align: center; }
+      .bottom .bomshop .bom3 a {
+        color: #666;
+        padding-right: 20px;
+        line-height: 40px;
+        cursor: pointer;
+        font-size: 12px;
+        font-family: "微软雅黑","宋体"; }
+    .bottom .bomshop .bom4 {
+      width: 855px;
+      height: auto;
+      margin: 20px auto 20px;
+      line-height: 20px;
+      zoom: 1;
+      overflow: auto;
+      font-size: 12px;
+      font-family: "微软雅黑","宋体"; }
+      .bottom .bomshop .bom4 .bqlogo {
+        background: url(..\index\images\ia_1200000044.png) no-repeat -10px -290px;
+        width: 246px;
+        height: 46px;
+        border-right: #e9e9e9 solid 1px;
+        float: left;
+        display: inline; }
+      .bottom .bomshop .bom4 .copyright {
+        width: 470px;
+        height: 40px;
+        margin: 4px 0 0 16px;
+        color: #666;
+        float: left;
+        display: inline; }
+        .bottom .bomshop .bom4 .copyright a {
+          color: #666; }
+      .bottom .bomshop .bom4 .business-link {
+        float: left;
+        display: block;
+        width: 117px;
+        height: 50px;
+        background: url(..\index\images\ia_1200000045.png) no-repeat; }
+
+.xfkf {
+  width: 70px;
+  height: 96px;
+  position: fixed;
+  top: 50%;
+  right: 5px;
+  z-index: 100;
+  margin-top: -48px; }
+  .xfkf a {
+    padding-top: 15px;
+    width: 68px;
+    height: 79px;
+    background: #fff;
+    border: 1px solid #dcdcdc;
+    display: block;
+    border-radius: 9px;
+    overflow: hidden;
+    text-decoration: none;
+    cursor: pointer;
+    color: #000; }
+    .xfkf a i {
+      margin: 0 auto;
+      display: block;
+      width: 41px;
+      height: 39px;
+      background: url(..\index\images\ia_1200000046.png) no-repeat;
+      background-position: -2px -2px; }
+    .xfkf a span {
+      display: block;
+      padding-top: 8px;
+      text-align: center;
+      color: #626262;
+      font-size: 12px;
+      font-family: "微软雅黑","宋体"; }
+
+.xfkf:hover a {
+  background: #000;
+  border: 1px solid #fff; }
+  .xfkf:hover a i {
+    background-position: -47px -2px; }
+  .xfkf:hover a span {
+    color: #fff; }
+
+/*滚动条的宽度*/
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px; }
+
+/*外层轨道。可以用display:none让其不显示，也可以添加背景图片，颜色改变显示效果*/
+::-webkit-scrollbar-track {
+  width: 6px;
+  background-color: #0d1b20;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius: 2em; }
+
+/*滚动条的设置*/
+::-webkit-scrollbar-thumb {
+  background-color: #606d71;
+  background-clip: padding-box;
+  min-height: 28px;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius: 2em; }
+
+/*滚动条移上去的背景*/
+::-webkit-scrollbar-thumb:hover {
+  background-color: #fff; }
